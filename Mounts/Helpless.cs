@@ -22,9 +22,9 @@ namespace FirstModOhFuck.Mounts
 			mountData.dashSpeed = 8f;
 			mountData.flightTimeMax = 0;
 			mountData.fatigueMax = 0;
-			mountData.jumpHeight = 5000;
+			mountData.jumpHeight = 16;
 			mountData.acceleration = 0.19f;
-			mountData.jumpSpeed = 4f;
+			mountData.jumpSpeed = 8f;
 			mountData.blockExtraJumps = false;
 			mountData.totalFrames = 5;
 			mountData.constantJump = true;
