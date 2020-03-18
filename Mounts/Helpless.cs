@@ -17,12 +17,12 @@ namespace FirstModOhFuck.Mounts
 		public override void SetDefaults() {
 			mountData.buff = BuffType<FirstModOhFuck.Buffs.Mounts.HelplessMount>();
 			mountData.heightBoost = 30;
-			mountData.fallDamage = 0.5f;
+			mountData.fallDamage = 0f;
 			mountData.runSpeed = 11f;
 			mountData.dashSpeed = 8f;
 			mountData.flightTimeMax = 0;
 			mountData.fatigueMax = 0;
-			mountData.jumpHeight = 5;
+			mountData.jumpHeight = 5000;
 			mountData.acceleration = 0.19f;
 			mountData.jumpSpeed = 4f;
 			mountData.blockExtraJumps = false;
@@ -35,13 +35,13 @@ namespace FirstModOhFuck.Mounts
 			mountData.playerYOffsets = array;
 			mountData.xOffset = 13;
 			mountData.bodyFrame = 3;
-			mountData.yOffset = -12;
+			mountData.yOffset = -35;
 			mountData.playerHeadOffset = 22;
 			mountData.standingFrameCount = 1;
 			mountData.standingFrameDelay = 12;
 			mountData.standingFrameStart = 0;
 			mountData.runningFrameCount = 2;
-			mountData.runningFrameDelay = 12;
+			mountData.runningFrameDelay = 60;
 			mountData.runningFrameStart = 1;
 			mountData.flyingFrameCount = 0;
 			mountData.flyingFrameDelay = 0;
@@ -61,7 +61,7 @@ namespace FirstModOhFuck.Mounts
 			}
 
 			mountData.textureWidth = mountData.backTexture.Width;
-			mountData.textureHeight = mountData.backTexture.Height;
+			mountData.textureHeight = mountData.backTexture.Height + 3;
 		}
 
 	    /* public override void UpdateEffects(Player player) {
