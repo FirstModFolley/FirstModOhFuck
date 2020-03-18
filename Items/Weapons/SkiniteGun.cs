@@ -2,7 +2,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-namespace firstmodohfuck.Items.Weapons
+namespace FirstModOhFuck.Items.Weapons
 {
 	public class SkiniteGun : ModItem
 	{
@@ -24,7 +24,7 @@ namespace firstmodohfuck.Items.Weapons
 			item.knockBack = 6;
 			item.value = 10000;
 			item.rare = 5;
-			item.useSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Items/GunScream");
+			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Items/GunScream");
 			item.autoReuse = true;
 			item.useAmmo = ItemID.Bone;
 			item.noMelee = true;

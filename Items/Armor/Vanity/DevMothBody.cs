@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace firstmodohfuck.Items.Armor.Vanity
+namespace FirstModOhFuck.Items.Armor.Vanity
 {
     [AutoloadEquip(EquipType.Body)]
     public class DevMothBody : ModItem

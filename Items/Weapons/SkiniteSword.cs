@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace firstmodohfuck.Items.Weapons
+namespace FirstModOhFuck.Items.Weapons
 {
 	public class SkiniteSword : ModItem
 	{

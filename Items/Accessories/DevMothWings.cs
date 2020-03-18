@@ -1,7 +1,9 @@
 using Terraria.ID;
 using Terraria.ModLoader;
+using Microsoft.Xna.Framework;
+using Terraria;
 
-namespace firstmodohfuck.Items.Accessories
+namespace FirstModOhFuck.Items.Accessories
 {
     [AutoloadEquip(EquipType.Wings)]
     public class DevMothWings : ModItem
