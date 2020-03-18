@@ -1,3 +1,0 @@
-displayName = Hnrnrnnggh AUugghHH
-author = by neta age 6 :)
-version = 0.1
