@@ -30,7 +30,7 @@ namespace FirstModOhFuck.Mounts
 			mountData.constantJump = true;
 			int[] array = new int[mountData.totalFrames];
 			for (int l = 0; l < array.Length; l++) {
-				array[l] = 20;
+				array[l] = 44;
 			}
 			mountData.playerYOffsets = array;
 			mountData.xOffset = 13;
@@ -60,7 +60,7 @@ namespace FirstModOhFuck.Mounts
 				return;
 			}
 			mountData.textureWidth = mountData.backTexture.Width;
-			mountData.textureHeight = mountData.backTexture.Height + 3;
+			mountData.textureHeight = mountData.backTexture.Height + 6;
 		}
 
 	}
