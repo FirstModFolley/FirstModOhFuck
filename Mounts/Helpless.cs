@@ -40,7 +40,7 @@ namespace FirstModOhFuck.Mounts
 			mountData.standingFrameCount = 1;
 			mountData.standingFrameDelay = 12;
 			mountData.standingFrameStart = 0;
-			mountData.runningFrameCount = 2;
+			mountData.runningFrameCount = 3;
 			mountData.runningFrameDelay = 60;
 			mountData.runningFrameStart = 1;
 			mountData.flyingFrameCount = 0;
@@ -48,8 +48,8 @@ namespace FirstModOhFuck.Mounts
 			mountData.flyingFrameStart = 0;
 			mountData.inAirFrameCount = 1;
 			mountData.inAirFrameDelay = 12;
-			mountData.inAirFrameStart = 4;
-			mountData.idleFrameCount = 4;
+			mountData.inAirFrameStart = 3;
+			mountData.idleFrameCount = 1;
 			mountData.idleFrameDelay = 12;
 			mountData.idleFrameStart = 0;
 			mountData.idleFrameLoop = true;
