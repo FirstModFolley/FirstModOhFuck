@@ -48,7 +48,7 @@ namespace FirstModOhFuck.Mounts
 			mountData.flyingFrameStart = 0;
 			mountData.inAirFrameCount = 1;
 			mountData.inAirFrameDelay = 12;
-			mountData.inAirFrameStart = 3;
+			mountData.inAirFrameStart = 4;
 			mountData.idleFrameCount = 1;
 			mountData.idleFrameDelay = 12;
 			mountData.idleFrameStart = 0;
