@@ -24,7 +24,7 @@ namespace FirstModOhFuck.Items.Weapons
 			item.knockBack = 6;
 			item.value = 10000;
 			item.rare = 5;
-			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Items/GunScream");
+			item.UseSound = mod.GetLegacySoundSlot(SoundType.Item, "Sounds/Item/GunScream");
 			item.autoReuse = true;
 			item.useAmmo = ItemID.Bone;
 			item.noMelee = true;
